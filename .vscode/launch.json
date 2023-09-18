@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootServicioItemApplication<Springboot-Servicio-Item>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.formaciondbi.springboot.item.SpringbootServicioItem.SpringbootServicioItemApplication",
+            "projectName": "Springboot-Servicio-Item",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=53173 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=Springboot-Servicio-Item"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootServicioProductosApplication<springboot-servicio-productos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.formacionbdi.springboot.app.productos.springbootservicioproductos.SpringbootServicioProductosApplication",
+            "projectName": "springboot-servicio-productos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
