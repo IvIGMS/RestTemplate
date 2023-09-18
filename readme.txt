@@ -14,3 +14,5 @@ En el microservicio que consume al de productos tenemos que crear un AppConfig c
 Queda un ejemplo bien definido de como comunicar dos microservicios, pero no es la manera más elegante, esto no se va a hacer de esta manera en producción.
 
 CURIOSIDAD: cuando retornamos un objeto en el controller lo que nos da son los métodos get (nombre sin get y valor)
+
+NOTA: para versiones de Spring antiguas podemos usar el servidor de Ribbon con Feign (sustituyendo a RestTemplate, pero normalemnte se va a usar el servido de Eureka, que lo tenemos en el siguiente proyecto)
